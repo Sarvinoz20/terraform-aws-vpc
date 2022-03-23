@@ -3,5 +3,8 @@
 ### Usage:
 ```
 module "vpc" {
-    source = ""
+    source = module "vpc" {
+  source  = "Sarvinoz20/vpc/aws"
+  version = "0.0.1"
 }
+````
