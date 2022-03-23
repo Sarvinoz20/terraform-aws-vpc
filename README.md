@@ -5,6 +5,6 @@
 module "vpc" {
     source = module "vpc" {
   source  = "Sarvinoz20/vpc/aws"
-  version = "0.0.1"
+  cidr_vlock = "10.0.0.0/16"
 }
 ````
